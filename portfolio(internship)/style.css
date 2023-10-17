@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:bisque
+}
+header{
+    background-color: rgb(235, 120, 13);
+    padding:1px;
+}
+nav .tag{
+    text-align: right;
+}
+img{
+    padding: 5px;
+}
+section{
+    color:red;
+}
+footer{
+    background-color: grey;
+}
