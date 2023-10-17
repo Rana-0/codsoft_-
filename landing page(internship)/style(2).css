@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 236, 236);
+}
+header{
+    background-color: aqua;
+    padding:10px;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a{
+    color:blue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+section.sec{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section.sec p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+section.sec h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+button{
+    padding:10px 20px;
+    font-size: 16px;
+    background-color: rgb(197, 153, 153);
+    color:black;
+    border:none;
+    cursor:pointer;
+}
+footer{
+    background-color: grey;
+    padding:10px;
+    color:aliceblue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:rgb(4, 55, 109);
+
+}
+h4{
+    text-decoration: underline;
+    font-size: 33px;
+    color:rgb(70,100,199);
+}
+marquee{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgb(221, 14, 41);
+    color: rgb(221, 201, 17);
+}
+
