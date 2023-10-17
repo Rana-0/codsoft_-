@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style(1).css">
+</head>
+<body>
+    <!-- To Create a basic calculator using CSS,HTML and JAVASCRIPT -->
+    <h1><b>CALCULATOR</h1></b>
+    <div class="calculator">
+        <input type="text" placeholder="00000000000" id="display" readonly>
+        <div class="row"> <!--this is for 1st row-->
+            <div class="button"><input type="button" value="7" onclick="AddToDisplay('7')"></div>
+            <div class="button"><input type="button" value="8" onclick="AddToDisplay('8')"></div>
+            <div class="button"><input type="button" value="9" onclick="AddToDisplay('9')"></div>
+            <div class="button"><input type="button" value="/" onclick="AddToDisplay('/')"></div>
+        </div>    
+        <div class="row"><!--this is for 2nd row-->
+            <div class="button"><input type="button" value="4" onclick="AddToDisplay('4')"></div>
+            <div class="button"><input type="button" value="5" onclick="AddToDisplay('5')"></div>
+            <div class="button"><input type="button" value="6" onclick="AddToDisplay('6')"></div>
+            <div class="button"><input type="button" value="-" onclick="AddToDisplay('-')"></div>
+        </div>    
+        <div class="row"><!--this is for 3rd row-->
+            <div class="button"><input type="button" value="1" onclick="AddToDisplay('1')"></div>
+            <div class="button"><input type="button" value="2" onclick="AddToDisplay('2')"></div>
+            <div class="button"><input type="button" value="3" onclick="AddToDisplay('3')"></div>
+            <div class="button"><input type="button" value="+" onclick="AddToDisplay('+')"></div>
+        </div>  
+        <div class="row"><!--this is for 4th row-->
+            <div class="button"><input type="button" value="0" onclick="AddToDisplay('0')"></div>
+            <div class="button"><input type="button" value="00" onclick="AddToDisplay('00')"></div>
+            <div class="button"><input type="button" value="." onclick="AddToDisplay('.')"></div>
+            <div class="button"><input type="button" value="*" onclick="AddToDisplay('*')"></div>
+        </div>  
+        <div class="row"><!--this is for 5th row-->
+            <div class="button"><input type="button" value="%" onclick="calculatePercentage('%')"></div>
+            <div class="button"><input type="button" value="delete" onclick="deleteInput('')"></div>
+            <div class="button"><input type="button" value="C" onclick="clearDisplay()"></div>
+            <div class="button"><input type="button" value="=" onclick="calculate()"></div>
+        </div>      
+
+    </div>
+    <script src="SCRIPT.JS"></script>
+    
+</body>
+</html>
